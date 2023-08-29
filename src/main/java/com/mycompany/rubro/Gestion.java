@@ -283,7 +283,7 @@ public class Gestion extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         
         if (jTcodigo1.getText().isEmpty() || jTdescripcion1.getText().isEmpty() || jTprecio1.getText().isEmpty() || jTstock1.getText().isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Campo vacío.");
+            JOptionPane.showMessageDialog(this, "Campo vacío...");
 
         } else {
             try {
